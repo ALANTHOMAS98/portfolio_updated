@@ -71,10 +71,6 @@ export function ContactSection() {
                       <a href="https://wa.me/37125126667" className="hover:text-primary">
                         +371 25126667
                       </a>
-                      <br />
-                      <a href="https://wa.me/918848352826" className="hover:text-primary">
-                        +91 8848352826
-                      </a>
                     </div>
                   </div>
                 </div>
