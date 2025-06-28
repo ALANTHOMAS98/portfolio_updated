@@ -37,7 +37,7 @@ export function Footer() {
           </div>
           {/* Removed admin panel link for security */}
           <div className="text-center text-muted-foreground">
-            <p>&copy; 2025 Alan Thomas | Powered by v0</p>
+            <p>&copy; 2025 Alan Thomas </p>
           </div>
         </div>
       </div>
