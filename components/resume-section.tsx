@@ -1,30 +1,20 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { FileText } from "lucide-react"
-import { ResumeDownload } from "./resume-download"
-
-export function ResumeSection() {
+export const ResumeSection = () => {
   return (
-    <section id="resume" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">Resume</h2>
-        <div className="max-w-2xl mx-auto">
-          <Card>
-            <CardHeader className="text-center">
-              <div className="flex justify-center mb-4">
-                <FileText className="h-16 w-16 text-primary" />
-              </div>
-              <CardTitle className="text-2xl">Download My Resume</CardTitle>
-              <p className="text-muted-foreground">
-                Get a detailed overview of my experience, skills, and achievements
-              </p>
-            </CardHeader>
-            <CardContent className="text-center">
-              <ResumeDownload />
-              <p className="text-sm text-muted-foreground mt-4">Last updated: December 2024</p>
-            </CardContent>
-          </Card>
-        </div>
+    <section className="py-20" id="resume">
+      <div className="container">
+        <h2 className="text-3xl font-bold mb-4">Resume</h2>
+        <p className="mb-4">
+          Click the button below to download my latest resume (PDF).
+        </p>
+        <a
+          href="/alan-resume.pdf"
+          download
+          className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition"
+        >
+          Download Resume
+        </a>
       </div>
     </section>
   )
 }
+
