@@ -59,7 +59,7 @@ export function ContactSection() {
                   <div>
                     <p className="font-medium">Phone</p>
                     <a href="tel:+37125126667" className="text-muted-foreground hover:text-primary">
-                      +371 25126667
+                      +371 20712746
                     </a>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ export function ContactSection() {
                     <p className="font-medium">WhatsApp</p>
                     <div className="text-muted-foreground">
                       <a href="https://wa.me/37125126667" className="hover:text-primary">
-                        +371 25126667
+                        +371 20712746
                       </a>
                     </div>
                   </div>
